@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hello/hello.h
+
+../include/world/world.h
+
+/Users/linchengyong/jacklin/cpp/project/clang_advanced/src/cmake_demo/test/test.c
+hello/hello.h
+/Users/linchengyong/jacklin/cpp/project/clang_advanced/src/cmake_demo/test/hello/hello.h
+world/world.h
+/Users/linchengyong/jacklin/cpp/project/clang_advanced/src/cmake_demo/test/world/world.h
+stdio.h
+-
+
